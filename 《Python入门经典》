@@ -1,12 +1,41 @@
 Python是一种解释型、面向对象、动态数据类型的高级程序设计语言。
 
 #第1章 安装和运行Python
-1、在systeminfo中查找Windows版本：cmd→systeminfo（OS name）
+一、在systeminfo中查找Windows版本：cmd→systeminfo（OS name）
 
 #第2章 在Python中使用数字
-1、变量的类型：int, float, long, string, list, tuple, dictionary
-2、命名变量：
+一、变量的类型
+  int, float, long, string, list, tuple, dictionary
+二、命名变量：
   变量名应该有意义；
   通常，在一个变量名中使用多个单词
   大多数情况下，变量名应该全部都是小写
   如果要使用一个字母，避免使用一个小写的L或者大写的O
+三、Python中，最长的数字取决于计算机有多大的内存。计算机内存一次能够存储的数字越多，long类型数字的长度就越长
+四、PEP表示Python增强提案。PEP是一个文档，它描述了使Python能够变得更好的一种方法
+
+#第3章 编辑中的逻辑
+一、else语句完全是可选的，但是如果使用了else，必须在它的下面放一个代码块，否则将报错
+二、和else不一样，except代码块是必须的。如果不想在这个代码块中做任何操作，在这里放置一条pass语句。Python将直接跳过这个代码块并继续执行代码
+
+#第4章 在字符串中存储文本
+一、获取有关字符串的信息
+  .upper() 把所有字母转换为大写
+  .lower() 把所有字母转换为小写
+  .capitalize() 把字符串首字母大写，并把剩余字母转换为小写
+  .title() 把首字母以及每个空格或者标点符号后面的字母转换为大写，其他字母转换为小写
+  这些方法都是没有破坏性的，它们并不改变存储在变量中的内容
+  
+  is_alpha() 是否全是字母 
+  is_dight() 是否全是数字
+二、格式化字符串
+  strip() 删除左右两侧的空格
+  lstrip() 删除左两侧的空格
+  rstrip() 删除右两侧的空格
+  
+  count() 返回一个字符串在另一个字符串中出现的次数
+  find() 查找字符第一次出现的位置，若没有找到任何内容，返回-1
+  replace() 用第二个字符串替换第一个
+  
+  
+   

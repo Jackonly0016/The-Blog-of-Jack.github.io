@@ -1,1 +1,12 @@
 Python是一种解释型、面向对象、动态数据类型的高级程序设计语言。
+
+#第1章 安装和运行Python
+1、在systeminfo中查找Windows版本：cmd→systeminfo（OS name）
+
+#第2章 在Python中使用数字
+1、变量的类型：int, float, long, string, list, tuple, dictionary
+2、命名变量：
+  变量名应该有意义；
+  通常，在一个变量名中使用多个单词
+  大多数情况下，变量名应该全部都是小写
+  如果要使用一个字母，避免使用一个小写的L或者大写的O

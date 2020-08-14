@@ -1,14 +1,13 @@
-Python是一种解释型、面向对象、动态数据类型的高级程序设计语言<br>
-
-
-第1章 安装和运行Python<br>
+**Python是一种解释型、面向对象、动态数据类型的高级程序设计语言<br>**
+<br>
+<br>
+**第1章 安装和运行Python<br>**
 一、在systeminfo中查找Windows版本：cmd→systeminfo（OS name）<br>
 
-
-第2章 在Python中使用数字<br>
+<br>
+**第2章 在Python中使用数字<br>**
 一、变量的类型<br>
   int, float, long, string, list, tuple, dictionary<br>
-  
 二、命名变量：<br>
 ```
   变量名不能用数字开头；
@@ -28,8 +27,8 @@ Python是一种解释型、面向对象、动态数据类型的高级程序设�
 ```
 五、PEP表示Python增强提案。PEP是一个文档，它描述了使Python能够变得更好的一种方法<br>
 
-
-第3章 编辑中的逻辑<br>
+<br>
+**第3章 编辑中的逻辑<br>**
 一、else语句完全是可选的，但是如果使用了else，必须在它的下面放一个代码块，否则将报错<br>
 二、和else不一样，except代码块是必须的。如果不想在这个代码块中做任何操作，在这里放置一条pass语句。Python将直接跳过这个代码块并继续执行代码<br>
 三、为假的数据类型的值
@@ -49,9 +48,9 @@ try:
 except ZeroDivisionError:
   print("Please do not do that")
 ```
-  
 
-第4章 在字符串中存储文本<br>
+<br>
+**第4章 在字符串中存储文本<br>**
 一、获取有关字符串的信息<br>
 ```
   .upper() 把所有字母转换为大写
@@ -76,8 +75,8 @@ except ZeroDivisionError:
   replace() 用第二个字符串替换第一个
 ```
  
- 
-第5章 处理输入与输出<br>
+<br>
+**第5章 处理输入与输出<br>**
 一、从命令行获取信息<br>
 ```
 input() 用户输入的任何内容都将按照它实际的内容保存，并且Python尝试为输入的内容匹配正确的数据类型
@@ -96,8 +95,8 @@ from getpass import getpass
 对字符串使用format()函数，使用花括号({})，可以为要插入的变量留出一个空间<br>
 python3.x中 input() 和从前的 raw_input() 等效，所以把raw_input()替换为input() 就可以了<br>
 
-
-第6章 将项分组到列表中<br>
+<br>
+**第6章 将项分组到列表中<br>**
 一、创建列表<br>
 ```
   列表中的一个项的位置叫做它的索引

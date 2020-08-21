@@ -252,12 +252,32 @@ super()是Python中一个特殊的函数，它告诉Python调用父类中的一�
 ```
 
 第14章 分拆程序<br>
+一、Python查找一个程序的代码<br>
+1、要查看当前的路径：<br>
+```
+  import sys
+  for directory in sys.path:
+    print(directory)
+```
+2、为了告诉Python想要将目录下的一个文件夹当作包一样使用，需要增加一个文件：__init__.py<br>
+3、__init__.py通常是空的，目的就是告诉Python，我们想要使用该目录的代码<br>
+4、模块的名称和文件的名称是一样的，但是模块名的末尾没有.py<br>
+5、如果在文件夹名称或文件名称中使用一个中划线（-），Python在导入模块时会有问题<br>
+  中划线在Python中会被特殊对待，可以使用下划线来代替中划线<br>
+6、os.getcwd()返回运行脚本的目录，而不是脚本所在的目录
 
-
-
-
-
-
+第15章
+一、在代码中嵌入注释
+  注释对于程序中需要临时删除的代码也很有用，当你想要快速地调试一部分代码时，或者只是想临时性地删除<br>
+一段代码，注释可能会很有帮助
+二、用docstring说明代码
+1、Docstring可以用三引号、单引号或者双引号括起来
+2、docstring在Python中很特殊，有一些内建的函数，他们使用docstring来帮助其他程序员使用你的代码<br>
+```
+  from doc import Test
+  t = Test()
+  help(t)
+```
 
 
 
